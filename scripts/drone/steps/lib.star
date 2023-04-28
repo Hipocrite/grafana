@@ -6,9 +6,12 @@ load(
     "scripts/drone/vault.star",
     "from_secret",
     "prerelease_bucket",
+    "updater_app_id",
+    "updater_app_installation_id",
+    "updater_app_private_key",
 )
 
-grabpl_version = "v3.0.30"
+grabpl_version = "v3.0.32-pre3"
 build_image = "grafana/build-container:1.7.3"
 publish_image = "grafana/grafana-ci-deploy:1.3.3"
 deploy_docker_image = "us.gcr.io/kubernetes-dev/drone/plugins/deploy-image"
@@ -1077,6 +1080,15 @@ def publish_images_step(edition, ver_mode, mode, docker_repo, trigger = None):
         cmd = "./bin/build artifacts docker publish-enterprise2 --dockerhub-repo {}".format(
             docker_repo,
         )
+
+    if ver_mode == "pr":
+        environment = {
+            "DOCKER_USER": from_secret("docker_username_pr"),
+            "DOCKER_PASSWORD": from_secret("docker_password_pr"),
+            "GITHUB_APP_ID": from_secret(updater_app_id),
+            "GITHUB_APP_INSTALLATION_ID": from_secret(updater_app_installation_id),
+            "GITHUB_APP_PRIVATE_KEY": from_secret(updater_app_private_key),
+        }
 
     step = {
         "name": "publish-images-{}".format(name),
