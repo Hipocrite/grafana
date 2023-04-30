@@ -715,8 +715,8 @@ github.com/docker/spdystream v0.0.0-20160310174837-449fdfce4d96/go.mod h1:Qh8CwZ
 github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815/go.mod h1:WwZ+bS3ebgob9U8Nd0kOddGdZWjyMGR8Wziv+TBNwSE=
 github.com/drone-runners/drone-runner-docker v1.8.2 h1:F7+39FSyzEUqLXYMvTdTGBhCS79ODDIhw3DQeF5GYT8=
 github.com/drone-runners/drone-runner-docker v1.8.2/go.mod h1:JR3pZeVZKKpkbTajiq0YtAx9WutkODdVKZGNR83kEwE=
-github.com/drone/drone-cli v1.6.1 h1:Beh0opEGR5XYezOyOmiqWzTMBGHkGDrh2tIG1cY/5GY=
-github.com/drone/drone-cli v1.6.1/go.mod h1://HC780Gua3Nhob/I2VPL3nTqmleEE/HIhGhTcJb2ds=
+github.com/drone/drone-cli v1.7.0 h1:IP5bnP2sFeLN56LeWnkUxZX+d0Bu/5RDB4Zq7iNUDaQ=
+github.com/drone/drone-cli v1.7.0/go.mod h1://HC780Gua3Nhob/I2VPL3nTqmleEE/HIhGhTcJb2ds=
 github.com/drone/drone-go v1.7.1 h1:ZX+3Rs8YHUSUQ5mkuMLmm1zr1ttiiE2YGNxF3AnyDKw=
 github.com/drone/drone-go v1.7.1/go.mod h1:fxCf9jAnXDZV1yDr0ckTuWd1intvcQwfJmTRpTZ1mXg=
 github.com/drone/envsubst v1.0.2/go.mod h1:bkZbnc/2vh1M12Ecn7EYScpI4YGYU0etwLJICOWi8Z0=
@@ -1275,10 +1275,6 @@ github.com/gorilla/websocket v1.4.1/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/ad
 github.com/gorilla/websocket v1.4.2/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
 github.com/gorilla/websocket v1.5.0 h1:PPwGk2jz7EePpoHN/+ClbZu8SPxiqlu12wZP/3sWmnc=
 github.com/gorilla/websocket v1.5.0/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
-github.com/grafana/alerting v0.0.0-20230427200804-f8565cd8b74b h1:SyatotlHGK+05AxICctry09ZEawhE0AasWpOifljH4M=
-github.com/grafana/alerting v0.0.0-20230427200804-f8565cd8b74b/go.mod h1:nHfrSTdV7/l74N5/ezqlQ+JwSvIChhN3G5+PjCfwG/E=
-github.com/grafana/alerting v0.0.0-20230428094731-e067f119be06 h1:g+J4UGslzpi9Kt+846NDAjGtVyt8K9Lgjj/vUh61yK0=
-github.com/grafana/alerting v0.0.0-20230428094731-e067f119be06/go.mod h1:5edgy6tQY4+W2wuJdi8g2GjbVmpJufguy7QGIRl2q4o=
 github.com/grafana/alerting v0.0.0-20230428095912-33c5aa68a5ba h1:aNTu22ojw4XY24DYNAuvw8v/5iFUNk2bkdTeeWQ5+0o=
 github.com/grafana/alerting v0.0.0-20230428095912-33c5aa68a5ba/go.mod h1:5edgy6tQY4+W2wuJdi8g2GjbVmpJufguy7QGIRl2q4o=
 github.com/grafana/codejen v0.0.3 h1:tAWxoTUuhgmEqxJPOLtJoxlPBbMULFwKFOcRsPRPXDw=
