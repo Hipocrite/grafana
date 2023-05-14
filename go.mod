@@ -233,7 +233,7 @@ require (
 	github.com/blugelabs/bluge_segment_api v0.2.0
 	github.com/bufbuild/connect-go v1.7.0
 	github.com/dlmiddlecote/sqlstats v1.0.2
-	github.com/drone/drone-cli v1.6.1
+	github.com/drone/drone-cli v1.7.0
 	github.com/getkin/kin-openapi v0.115.0
 	github.com/golang-migrate/migrate/v4 v4.7.0
 	github.com/google/go-github/v45 v45.2.0
