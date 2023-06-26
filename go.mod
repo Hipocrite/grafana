@@ -31,7 +31,7 @@ require (
 	cuelang.org/go v0.5.0
 	github.com/Azure/azure-sdk-for-go v65.0.0+incompatible
 	github.com/Azure/go-autorest/autorest v0.11.28
-	github.com/BurntSushi/toml v1.2.1
+	github.com/BurntSushi/toml v1.3.2
 	github.com/Masterminds/semver v1.5.0
 	github.com/VividCortex/mysqlerr v0.0.0-20170204212430-6c6b55f8796f
 	github.com/aws/aws-sdk-go v1.44.234
@@ -94,7 +94,7 @@ require (
 	github.com/teris-io/shortid v0.0.0-20171029131806-771a37caa5cf
 	github.com/ua-parser/uap-go v0.0.0-20211112212520-00c877edfe0f
 	github.com/uber/jaeger-client-go v2.29.1+incompatible // indirect
-	github.com/urfave/cli/v2 v2.24.4
+	github.com/urfave/cli/v2 v2.25.7
 	github.com/vectordotdev/go-datemath v0.1.1-0.20220323213446-f3954d0b18ae
 	github.com/yalue/merged_fs v1.2.2
 	github.com/yudai/gojsondiff v1.0.0
